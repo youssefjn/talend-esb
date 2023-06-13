@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_hFzPkAUzEe6ZX9EYJcW02A" name="Customer" dataPackage="_hFzPkQUzEe6ZX9EYJcW02A" Server="Localhost 127.0.0.1" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hFzPkQUzEe6ZX9EYJcW02A" name="default" dataManager="_hFzPkAUzEe6ZX9EYJcW02A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hFzPkgUzEe6ZX9EYJcW02A" id="_XVi2cAUzEe6ZX9EYJcW02A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hFzPkwUzEe6ZX9EYJcW02A" name="id" label="id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hFzPlAUzEe6ZX9EYJcW02A" name="CustomerName" label="CustomerName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hFzPlQUzEe6ZX9EYJcW02A" name="CustomerAdress" label="CustomerAdress" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

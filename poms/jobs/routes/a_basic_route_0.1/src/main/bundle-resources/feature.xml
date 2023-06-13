@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="A_Basic_Route-feature">
+    <feature name="A_Basic_Route-feature" version="0.1.0">
+        <feature>camel-spring</feature>
+        <feature>camel-blueprint</feature>
+        <feature>camel-core</feature>
+        <feature>camel-cxf</feature>
+        <bundle>mvn:org.example.cookbook.route/A_Basic_Route/0.1.0</bundle>
+        <config name="A_Basic_Route.talendcontext.Default" override="true">
+</config>
+    </feature>
+</features>

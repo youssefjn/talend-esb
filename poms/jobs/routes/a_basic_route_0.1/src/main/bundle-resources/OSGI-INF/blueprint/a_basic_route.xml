@@ -1,0 +1,16 @@
+<bp:blueprint xmlns:bp="http://www.osgi.org/xmlns/blueprint/v1.0.0" xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:camel="http://camel.apache.org/schema/blueprint" xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+            http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+            http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
+            http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+
+    <bean id="jmxEventNotifier" class="org.apache.camel.management.JmxNotificationEventNotifier">
+        <property name="source" value="A_Basic_Route"/>
+        <property name="ignoreCamelContextEvents" value="true"/>
+        <property name="ignoreRouteEvents" value="true"/>
+        <property name="ignoreServiceEvents" value="true"/>
+        <property name="ignoreExchangeEvents" value="true"/>
+    </bean>
+
+</bp:blueprint>

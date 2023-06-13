@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Jc1EEAU8Ee6ZX9EYJcW02A" name="mysql_connection" id="_3kFg4AU7Ee6ZX9EYJcW02A" label="mysql_connection" dataPackage="_Jd9sgAU8Ee6ZX9EYJcW02A" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/talend?serverTimezone=UTC" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:ojrsLdPJenyDGOb52V7h9x+fYv0cWReylGqaonlc5Vo=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="talend" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="serverTimezone=UTC" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_Jc1rIAU8Ee6ZX9EYJcW02A" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_JdGw4AU8Ee6ZX9EYJcW02A" tag="package filter" value=""/>
+    <taggedValue xmi:id="_JdKbQAU8Ee6ZX9EYJcW02A" tag="Status" value=""/>
+    <taggedValue xmi:id="_JdKbQQU8Ee6ZX9EYJcW02A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_JdKbQgU8Ee6ZX9EYJcW02A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_JdKbQwU8Ee6ZX9EYJcW02A" tag="Description" value=""/>
+    <taggedValue xmi:id="_JdKbRAU8Ee6ZX9EYJcW02A" tag="Author" value=""/>
+    <taggedValue xmi:id="_JdKbRQU8Ee6ZX9EYJcW02A" tag="otherParameter"/>
+    <taggedValue xmi:id="_JdhAkAU8Ee6ZX9EYJcW02A" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_JdhAkQU8Ee6ZX9EYJcW02A" tag="DB ProductVersion" value="8.0.31"/>
+    <taggedValue xmi:id="_JdhAkgU8Ee6ZX9EYJcW02A" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_Jc1rIQU8Ee6ZX9EYJcW02A" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Jd9sgAU8Ee6ZX9EYJcW02A" name="talend" dataManager="_Jc1EEAU8Ee6ZX9EYJcW02A"/>
+</xmi:XMI>
