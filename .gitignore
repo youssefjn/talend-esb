@@ -1,0 +1,11 @@
+**/jobInfo.properties
+.JETEmitters/
+.Java/
+.metadata/
+code/routines/system/*.*
+temp/
+sqlPatterns/
+.settings
+poms/
+#talend.project
+#.project
